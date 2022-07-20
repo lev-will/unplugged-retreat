@@ -94,64 +94,127 @@ header, footer {
     align-items: center;
     flex-flow: row wrap;
 }
+header {
+  padding: 15px 0;
+}
+.header-divider {
+  width: 100%;
+}
 header .content-wrapper {
   display: flex;
   justify-content: center;
   align-items: center;
   flex-flow: row wrap;
+  margin: 0;
+}
+footer .content-wrapper {
+  width: 55%;
+  margin: 50px 70px;
+  display: flex;
+  justify-content: center;
+  flex-flow: row wrap;
+}
+.content-wrapper {
+  width: 87%;
 }
 header nav {
   display: flex;
   justify-content: space-around;
   align-items: center;
   flex-flow: row wrap;
+  width: 60%;
 }
 header nav ul {
-  display: inline-block;
+  display: flex;
+  justify-content: space-around;
+  width: 45%;
+  list-style-type: none;
+}
+footer .social-icons {
+  display:flex;
+  justify-content: space-around;
+  align-items: center;
+}
+footer .social-icons p {
+ display: flex;
+ justify-content: center;
+ align-items: center;
+}
+footer p {
+  margin: 0;
 }
 
-/* Main */
+/* -------------------- Mobile Styles - Homepage -------------------- */
+
+/* Hero Area */
 
 .hero-area {
   display:flex;
   justify-content: center;
-  align-items: center;
-}
-main aside {
-  display:flex;
-  justify-content: center;
-  align-items: center;
   flex-flow: row wrap;
 }
-main .features {
-  display:flex;
-  justify-content: center;
-  align-items: center;
-}
-main .features-items {
+
+/* Aside */
+
+aside {
   display: flex;
   justify-content: center;
   align-items: center;
   flex-flow: row wrap;
 }
-main .reviews {
+
+/* Features */
+
+.features article {
+  width: 55%;
+}
+.features {
   display: flex;
   justify-content: center;
-  align-items: center;
   flex-flow: row wrap;
-} 
-.mission{
+}
+.features p {
+  margin: 0;
+}
+.features .features-items {
   display: flex;
   justify-content: center;
   align-items: center;
   flex-flow: row wrap;
 }
-.contact-section{
+
+/* Reviews */
+
+.reviews {
   display: flex;
   justify-content: center;
-  align-items: center;
   flex-flow: row wrap;
+  padding: 0 20px;
 }
+.reviews h3 {
+  width: 49%;
+}
+/* ==========================================================================
+   About Page
+   ========================================================================== */
+
+   .mission {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: row wrap;
+  }
+  
+  .contact-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: row wrap;
+  }
+/* ==========================================================================
+   FAQ Page
+   ========================================================================== */
+  
 .faq-content-wrapper {
   display: flex;
   justify-content: center;
@@ -163,18 +226,6 @@ main .reviews {
   justify-content: center;
   align-items: center;
   flex-flow: row wrap;
-}
-
-/* Footer */
-footer .social-icons {
-  display:flex;
-  justify-content: center;
-  align-items: center;
-}
-footer .social p {
- display: flex;
- justify-content: center;
- align-items: center;
 }
 
 
