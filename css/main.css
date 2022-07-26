@@ -109,30 +109,61 @@ a {
   text-decoration: none;	
 }
  
+h1 {
+  font-family: 'Poppins', sans-serif; 
+  font-size: 2.25em;
+}
+
 h2 {
   font-family: 'Poppins', sans-serif; 
-  font-size: 2em;
+  font-size: 1.875em;
 }
- 
+
+.reviews {
+  background-color: #2a423a;
+}
+
+.reviews p {
+  line-height: 1.125em;
+}
 h3, 
 h4 {
   font-family: 'Poppins', sans-serif; 
-  font-size: 1.5em;
+  font-size: 1.125em;
 }
- 
-p {
-  line-height: 0.25em;	
+
+aside {
+  background-color: #527158;
+}
+
+footer {
+  background-color: #202322;
+}
+
+footer h3 {
+  color : #ffffff;
+}
+
+.copyright {
+  color: #ffffff;
+  font-size: 0.0875em;
+}
+
+.hero-area, aside {
+  color: #e2e3ed;
+}
+
+.features-item-description {
+  color: #e1e2ea;
+  line-height: 1.125em;
   font-size: 0.875em;
 }
  
-img {
- 
+p {
+  line-height: 1.125em;	
+  font-size: 0.875em;
 }
- 
-figure {
- 
-}
- 
+
 address {
   font-style: normal; 
 }
@@ -146,10 +177,10 @@ header, footer {
     display: flex;
     justify-content: center;
     align-items: center;
-    flex-flow: row wrap;
+    flex-flow: column wrap;
 }
 header {
-  padding: 15px 0;
+  padding: 15px 20px;
 }
 .header-divider {
   width: 100%;
@@ -166,7 +197,8 @@ footer .content-wrapper {
   margin: 50px 70px;
   display: flex;
   justify-content: center;
-  flex-flow: row wrap;
+  flex-flow: column wrap;
+  text-align: center;
 }
 .content-wrapper {
   width: 87%;
@@ -196,6 +228,7 @@ footer .social-icons p {
 }
 footer p {
   margin: 0;
+  color:#ffffff;
 }
 
 /* -------------------- Mobile Styles - Homepage -------------------- */
@@ -206,6 +239,7 @@ footer p {
   display:flex;
   justify-content: center;
   flex-flow: row wrap;
+  padding: 0 20px;
 }
 
 /* Aside */
@@ -215,6 +249,34 @@ aside {
   justify-content: center;
   align-items: center;
   flex-flow: row wrap;
+  padding: 0 20px;
+  padding-bottom: 34px;
+}
+aside .form {
+  margin-top: 30px;
+}
+ 
+input[type=text] {
+  box-sizing: border-box;
+  width: 100%;
+  color: #2a423a;
+  font-style: italic;
+  font-size: 0.875em;
+  padding: 1em;
+}
+ 
+input[type=button] {
+  width: 100%;
+  padding: 20px 0;
+  margin-top: 20px;
+  background-color: #2a423a;
+  font-family: 'Poppins', Helvetica, Arial, sans-serif;
+  font-weight: 500;
+  font-size: 1.125em;
+  color: #e2e3ed;
+  border: none;
+  text-align: center;
+  text-transform: uppercase;
 }
 
 /* Features */
