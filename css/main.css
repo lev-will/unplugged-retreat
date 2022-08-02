@@ -195,8 +195,9 @@ header nav {
 
 header nav ul {
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
   width: 100%;
+  padding: 0;
 }
 
 header nav ul li {
@@ -408,7 +409,7 @@ input[type=button] {
   flex-flow: row wrap;
 }
 
-.faq-content-wrapper {
+.faq .content-wrapper {
   margin: 50px 0 0 0;
   display: flex;
   justify-content: center;
@@ -424,12 +425,12 @@ input[type=button] {
 }
 
 .faq h2 {
-  margin-bottom: 40px;
+  margin-bottom: 30px;
   line-height: 1;
 }
 
-.faq-content {
-  margin-bottom: 50px;
+.faq article {
+  margin-bottom: 20px;
 }
 
 .faq-content h3 {
@@ -555,7 +556,7 @@ input[type=button] {
       justify-content: space-between;
   }
   header nav {
-      width: 35%;
+      width: 25%;
   }
   header nav ul {
       justify-content: space-between;
@@ -627,7 +628,7 @@ input[type=button] {
 
   footer .content-wrapper {
     width: 65%;
-    margin: 100px 0;
+    margin: 80px 0;
   }
   footer .footer-content {
     display: flex;
@@ -641,6 +642,7 @@ input[type=button] {
   footer h3 {
     font-size: 1.5em;
     margin-bottom: 40px;
+    margin-top: 0;
   }
   footer p {
       line-height: 1.285;
@@ -671,6 +673,7 @@ input[type=button] {
   }
   .contact-section .content-wrapper h2 {
     width: 84%;
+    margin: 0;
   }
   .contact-content {
     display: flex;
@@ -689,13 +692,13 @@ input[type=button] {
   }
   .faq-content {
     justify-content: space-between;
-    margin: 0;
+    margin-bottom: 25px;
   }
   .faq article {
     display: flex;
     flex-flow: column wrap;
     flex-basis: 45%;
-    margin-bottom: 45px;
+    margin-bottom: 25px;
   }
   .faq h2 {
     width: 100%;    
@@ -778,7 +781,7 @@ input[type=button] {
 
    .mission h2,
   .contact-section .content-wrapper h2 {
-      width: 95%;
+      width: 100%;
       font-size: 3em;
   }
   .contact-content h3 {
